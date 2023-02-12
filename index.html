@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"">
+    <link rel=" stylesheet" href="estilo.css">
+    <title>13. Site do Mapa</title>
+
+    <!--Abaixo é refeerenciada a folha de estilo da biblioteca de mapas Leaflet-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+        integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <!-- Logo após a folha de estilo da Leaflet, é necessária a tag abaixo de script da biblioteca Leaflet.-->
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+        integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+</head>
+
+<body>
+
+    <nav>
+        <h3 class="logo">Geoparques Mundiais da UNESCO no Brasil</h3>
+        <ul>
+            <li><a href="index.html">Mapa</a></li>
+            <li><a href="geoparques.html">Geoparques</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <div class="caixaConteudo">
+        <div id="mapaLeaflet">
+            <!--A tag de script roda o arquivo com o código Javascript para desenhar o mapa.-->
+            <script src="mapa.js"></script>
+        </div>
+    </div>
+
+</body>
+
+</html>

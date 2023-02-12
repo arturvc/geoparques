@@ -1,0 +1,285 @@
+[{
+    "nome": "Geoparque Araripe",
+    "lat": -7.238144092273729,
+    "long": -39.41512282803512,
+    "ano": 2006,
+    "regiao": "Cariri",
+    "estado": "Ceará",
+    "area": "3.441 km²",
+    "site": "http://geoparkararipe.urca.br",
+    "geossitio": [{
+            "geoNome": "Geossítio Batateiras",
+            "geoLat": -7.233856346895707,
+            "geoLong": -39.43220493016161,
+            "geoCidade": "Crato - CE"
+        },
+        {
+            "geoNome": "Geossítio Cachoeira de Missão Velha",
+            "geoLat": -7.221929208840711,
+            "geoLong": -39.14399344370573,
+            "geoCidade": "Missão Velha - CE"
+        },
+        {
+            "geoNome": "Geossítio Colina do Horto",
+            "geoLat": -7.179458816250377,
+            "geoLong": -39.32928950129895,
+            "geoCidade": "Juazeiro do Norte - CE"
+        },
+        {
+            "geoNome": "Geossítio Floresta Petrificada",
+            "geoLat": -7.258823606023441,
+            "geoLong": -39.09057204806524,
+            "geoCidade": "Missão Velha - CE"
+        },
+        {
+            "geoNome": "Geossítio Parque dos Pterossauros",
+            "geoLat": -7.187626476192336,
+            "geoLong": -39.71650054360399,
+            "geoCidade": " Santana do Cariri - CE"
+        },
+        {
+            "geoNome": "Geossítio Pedra Cariri",
+            "geoLat": -7.121165583827016,
+            "geoLong": -39.6951692590311,
+            "geoCidade": "Nova Olinda - CE"
+        },
+        {
+            "geoNome": "Geossítio Pontal da Santa Cruz",
+            "geoLat": -7.210151765372866,
+            "geoLong": -39.733772843421086,
+            "geoCidade": "Santana do Cariri - CE"
+        },
+        {
+            "geoNome": "Geossítio Ponte de Pedra",
+            "geoLat": -7.151553808944858,
+            "geoLong": -39.62919157196631,
+            "geoCidade": " Nova Olinda - CE"
+        },
+        {
+            "geoNome": "Geossítio Riacho do Meio",
+            "geoLat": -7.364073041984804,
+            "geoLong": -39.33025377228654,
+            "geoCidade": "Barbalha - CE"
+        }
+    ]
+}, {
+    "nome": "Geoparque Seridó",
+    "lat": -6.263577300616673,
+    "long": -36.51592632997373,
+    "ano": 2021,
+    "regiao": "Central Potiguar",
+    "estado": "Rio Grande do Norte",
+    "area": "2.800 km²",
+    "site": "http://geoparqueserido.com.br",
+    "geossitio": [{
+            "geoNome": "Geossítio Serra Verde",
+            "geoLat": -5.9355556,
+            "geoLong": -36.361111,
+            "geoCidade": "Cerro Corá - RN"
+        }, {
+            "geoNome": "Geossítio Cruzeiro de Cerro Corá",
+            "geoLat": -6.036389287781131,
+            "geoLong": -36.34522415683832,
+            "geoCidade": "Cerro Corá - RN"
+        }, {
+            "geoNome": "Geossítio Nascente do Rio Potengi",
+            "geoLat": -6.0438425797431234,
+            "geoLong": -36.39116101683737,
+            "geoCidade": "Cerro Corá - RN"
+        },
+        {
+            "geoNome": "Geossítio Vale Vulcânico",
+            "geoLat": -6.077773361366824,
+            "geoLong": -36.40275171805105,
+            "geoCidade": "Cerro Corá - RN"
+        },
+        {
+            "geoNome": "Geossítio Mirante Santa Rita",
+            "geoLat": -6.104466000029963,
+            "geoLong": -36.441120348803686,
+            "geoCidade": "Lagoa Nova - RN"
+        },
+        {
+            "geoNome": "Geossítio Tanque dos Poscianos",
+            "geoLat": -6.129083272043437,
+            "geoLong": -36.54318382476278,
+            "geoCidade": "Lagoa Nova - RN"
+        },
+        {
+            "geoNome": "Geossítio Lagoa do Santo",
+            "geoLat": -6.178365470594108,
+            "geoLong": -36.57558557778973,
+            "geoCidade": "Currais Novos - RN"
+        },
+        {
+            "geoNome": "Geossítio Pico do Totoró",
+            "geoLat": -6.2022761268757085,
+            "geoLong": -36.565578274953424,
+            "geoCidade": "Currais Novos - RN"
+        },
+        {
+            "geoNome": "Geossítio Morro do Cruzeiro",
+            "geoLat": -6.2658470852832515,
+            "geoLong": -36.505865510785476,
+            "geoCidade": "Currais Novos - RN"
+        },
+        {
+            "geoNome": "Geossítio Mina Brejuí",
+            "geoLat": -6.319727237417627,
+            "geoLong": -36.55164832330338,
+            "geoCidade": "Currais Novos - RN"
+        },
+        {
+            "geoNome": "Geossítio Cânions dos Apertados",
+            "geoLat": -6.33254790658342,
+            "geoLong": -36.50212984093712,
+            "geoCidade": "Currais Novos - RN"
+        },
+        {
+            "geoNome": "Geossítio Açude Gargalheiras",
+            "geoLat": -6.425303316822036,
+            "geoLong": -36.60219071644012,
+            "geoCidade": "Acari - RN"
+        },
+        {
+            "geoNome": "Geossítio Poço do Arroz",
+            "geoLat": -6.439284523518216,
+            "geoLong": -36.61450906045276,
+            "geoCidade": "Acari - RN"
+        },
+        {
+            "geoNome": "Geossítio Cruzeiro de Acari",
+            "geoLat": -6.438387010912088,
+            "geoLong": -36.641162737796265,
+            "geoCidade": "Acari - RN"
+        },
+        {
+            "geoNome": "Geossítio Marmitas do Rio Carnaúba",
+            "geoLat": -6.494714303542824,
+            "geoLong": -36.691949876448355,
+            "geoCidade": "Acari - RN"
+        },
+        {
+            "geoNome": "Geossítio Serra da Rajada",
+            "geoLat": -6.551170776002615,
+            "geoLong": -36.65419295148953,
+            "geoCidade": "Carnaúba dos Dantas - RN"
+        },
+        {
+            "geoNome": "Geossítio Monte do Galo",
+            "geoLat": -6.561427393193939,
+            "geoLong": -36.58552565291288,
+            "geoCidade": "Carnaúba dos Dantas - RN"
+        },
+        {
+            "geoNome": "Geossítio Xiquexique",
+            "geoLat": -6.55086913453025,
+            "geoLong": -36.558650755554694,
+            "geoCidade": "Carnaúba dos Dantas - RN"
+        },
+        {
+            "geoNome": "Geossítio Cachoeira dos Fundões",
+            "geoLat": -6.523651447628949,
+            "geoLong": -36.55557141987509,
+            "geoCidade": "Carnaúba dos Dantas - RN"
+        },
+        {
+            "geoNome": "Geossítio Açude Boqueirão",
+            "geoLat": -6.697597277090515,
+            "geoLong": -36.63000145545267,
+            "geoCidade": "Parelhas - RN"
+        },
+        {
+            "geoNome": "Geossítio Mirador",
+            "geoLat": -6.710905997566502,
+            "geoLong": -36.63337232454199,
+            "geoCidade": "Parelhas - RN"
+        }
+    ]
+}, {
+    "nome": "Geoparque Caminhos dos Cânions do Sul",
+    "lat": -29.19507501765886,
+    "long": -49.948010133741995,
+    "ano": 2021,
+    "regiao": "Sul",
+    "estado": "Santa Catarina e Rio Grande do Sul",
+    "area": "2.830 km²",
+    "site": "https://canionsdosul.org",
+    "geossitio": [{
+            "geoNome": "Geossítio Cânion Fortaleza",
+            "geoLat": -29.061196616839958,
+            "geoLong": -49.9880427483894,
+            "geoCidade": "Cambará do Sul - RS"
+        }, {
+            "geoNome": "Geossítio Cânion Itaimbezinho",
+            "geoLat": -29.167517819897352, 
+            "geoLong": -50.09787204269645,
+            "geoCidade": "Cambará do Sul - RS"
+        }, {
+            "geoNome": "Geossítio Morro do Carasal",
+            "geoLat": -29.06449013567534,
+            "geoLong": -49.93091103403197,
+            "geoCidade": "Jacinto Machado - SC"
+        }, {
+            "geoNome": "Geossítio Rio Tigre Preto",
+            "geoLat": -29.041808265511484,
+            "geoLong": -49.92663442705728,
+            "geoCidade": "Jacinto Machado - SC"
+        }, {
+            "geoNome": "Geossítio Santuário de Nossa Senhora Aparecida",
+            "geoLat": -29.210829848617784,
+            "geoLong": -49.96984182633024,
+            "geoCidade": "Mampituba - RS"
+        }, {
+            "geoNome": "Geossítio Cachoeira dos Borges",
+            "geoLat": -29.29229105773816,
+            "geoLong": -49.987264475916845,
+            "geoCidade": "Mampituba - RS"
+        }, {
+            "geoNome": "Geossítio Cachoeira do Bizungo",
+            "geoLat": -28.70821387640351,
+            "geoLong": -49.77168586394626,
+            "geoCidade": "Morro Grande - SC"
+        }, {
+            "geoNome": "Geossítio Paleotocas Xocleng",
+            "geoLat": -28.698608804295255,
+            "geoLong": -49.74626031974117,
+            "geoCidade": "Morro Grande - SC"
+        }, {
+            "geoNome": "Geossítio Cânion Malacara",
+            "geoLat": -29.158438958371892,
+            "geoLong": -49.98203702255271,
+            "geoCidade": "Praia Grande - SC"
+        },
+        {
+            "geoNome": "Geossítio Rio do Boi",
+            "geoLat": -29.20051068891779,
+            "geoLong": -50.04259978904113,
+            "geoCidade": "Praia Grande - SC"
+        },
+        {
+            "geoNome": "Geossítio Cachoeira da Cortina",
+            "geoLat": -28.828888838829346,
+            "geoLong": -49.915864833609625,
+            "geoCidade": "Timbé do Sul - SC"
+        },
+        {
+            "geoNome": "Geossítio Toca do Tatu",
+            "geoLat": -28.78225369501791,
+            "geoLong": -49.88652899059541,
+            "geoCidade": "Timbé do Sul - SC"
+        },
+        {
+            "geoNome": "Geossítio Parque Estadual do Itapeva",
+            "geoLat": -29.377166029053406,
+            "geoLong": -49.7602994460339,
+            "geoCidade": "Torres - RS"
+        },
+        {
+            "geoNome": "Geossítio Parque da Guarita e Morro do Farol",
+            "geoLat": -29.35565354055968,
+            "geoLong": -49.734595075079795,
+            "geoCidade": "Torres - RS"
+        }
+    ]
+}]

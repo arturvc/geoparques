@@ -1,0 +1,105 @@
+/* Configurações do <body> que abrangem toda a página. */
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #ad8a68;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+    color: #ba8345;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Estilo para os elementos de navegação da tag <nav>. */
+nav {
+    margin: 0px;
+    padding: 0px 2%;
+    background-color: #ad8a68;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Configurações da classe .logo. */
+.logo {
+    padding: 0px;
+    margin: 0px;
+    color: #fff6e7;
+
+}
+
+/* Estilo para os elementos <li> da lista não ordenada <ul> de navegação. */
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/* Estilo para o link <a>. */
+nav ul li a {
+    color: #fff6e7;
+    text-decoration: none;
+}
+
+/* Estilo para o link <a> quando o cursor estiver sobre o elemento . */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Classe de estilo da caixa de conteúdo, que contém o mapa em 'index.html' e texto em 'sobre.html'. */
+.caixaConteudo {
+    background-color: #dfe0df;
+    min-height: calc(100vh - 54px);
+    display: flex;
+    justify-content: center;
+}
+
+/* Identidade de estilo para a <div> que contém o mapa. */
+#mapaLeaflet {
+    width: 100%;
+}
+
+/* Identidade de estilo para a <div> que contém texto. */
+#conteudoTexto {
+    margin: 0px;
+    padding: 20px;
+    background-color: #fff6e7;
+    max-width: 700px;
+}
+
+/* Identidade de estilo para a <div> que contém texto. */
+.ficha {
+    width: 100%;
+    padding: 0px;
+}
+
+.titulo h4 {
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.imagem img {
+    width: 100%;
+    padding-bottom: 0px;
+    filter: grayscale(80%);
+}
+
+.imagem p {
+    padding-top: 0px;
+    font-size: smaller;
+}
+
+.descricao {
+    width: 100%;
+}
+
+/* 
+#ba8345
+#ad8a68
+#fff6e7
+#dfe0df 
+*/
