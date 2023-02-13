@@ -6,11 +6,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Configurações dos links <a>. */
 a {
     color: #ba8345;
     text-decoration: none;
 }
-
+/* Configuração dos links <a> quando o cursor sobrepõe o texto. */
 a:hover {
     text-decoration: underline;
 }
@@ -36,6 +37,7 @@ nav {
     align-self: stretch;
 }
 
+/* Estilo da lista não ordenad <ul> que estão na tag <nav>. */
 nav ul {
     margin: 0px;
     padding: 0px;
@@ -44,7 +46,7 @@ nav ul {
 
 }
 
-/* Estilo para os elementos <li> da lista não ordenada <ul> de navegação. */
+/* Estilo para os elementos <li> da lista não ordenada <ul> que estão na tag <nav>. */
 nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -53,18 +55,18 @@ nav ul li {
 
 }
 
-/* Estilo para o link <a>. */
+/* Estilo para o link <a> que estão na tag <nav>. */
 nav ul li a {
     color: #fff6e7;
     text-decoration: none;
 }
 
-/* Estilo para o link <a> quando o cursor estiver sobre o elemento . */
+/* Estilo para o link <a> quando o cursor sobrepõe o texto. */
 nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Classe de estilo da caixa de conteúdo, que contém o mapa em 'index.html' e texto em 'sobre.html'. */
+/* Classe de estilo da caixa de conteúdo. */
 .caixaConteudo {
     background-color: #dfe0df;
     min-height: calc(100vh - 64px);
@@ -77,22 +79,12 @@ nav ul li a:hover {
     width: 100%;
 }
 
-/* Identidade de estilo para a <div> que contém texto. */
+/* Classe de estilo para a <div> que contém texto (e imagem). */
 .conteudoTexto {
     margin: 0px;
     padding: 20px;
     background-color: #fff6e7;
     max-width: 700px;
-}
-
-/* Identidade de estilo para a <div> que contém texto. */
-.ficha {
-    padding: 0px;
-}
-
-.titulo h4 {
-    margin: 0px;
-    padding: 10px 0px;
 }
 
 .imagem img {
@@ -105,11 +97,6 @@ nav ul li a:hover {
     padding-top: 0px;
     font-size: smaller;
 }
-
-.descricao {
-    width: 100%;
-}
-
 
 /*Estilo do balão do Leaflet*/
 .leaflet-popup-content {
