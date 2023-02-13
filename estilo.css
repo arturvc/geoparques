@@ -87,38 +87,45 @@ nav ul li a:hover {
     max-width: 700px;
 }
 
+/* Configura a tag de imagem <img> que está na classe .imagem. */
 .imagem img {
     width: 100%;
     padding-bottom: 0px;
     filter: grayscale(80%);
 }
 
+/* Configura a tag de parágrafo <p> que está na classe .imagem. */
 .imagem p {
     padding-top: 0px;
     font-size: smaller;
 }
 
-/*Estilo do balão do Leaflet*/
+/* Configura o estilo do popup do Leaflet. */
 .leaflet-popup-content {
     color: #ad8a68;
 }
 
+/* Configura a tag de link <a> que está na classe do popup do Leaflet. */
 .leaflet-popup-content a {
     color: #ad8a68;
     text-decoration: none;
 }
 
+/* Configura a tag de link <a> que foi visitada que está na classe do popup do Leaflet. */
 .leaflet-popup-content a:visited {
     color: #ad8a68;
 }
 
+/* Configura a tag de link <a> quando o cursor sobrepõe o texto, que está na classe do popup do Leaflet. */
 .leaflet-popup-content a:hover {
     text-decoration: underline;
 }
 
 /* 
+Cores usadas no projeto:
 #ba8345
 #ad8a68
 #fff6e7
 #dfe0df 
+#73b473
 */
