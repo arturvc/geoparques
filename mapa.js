@@ -1,3 +1,8 @@
+// Este projeto usa emojis do OpenMoji - https://openmoji.org
+// All emojis designed by OpenMoji – the open-source emoji and icon project. License: CC BY-SA 4.0
+// Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)
+// https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR
+
 // Cria a variável tipo lista (array) para ser usada com os dados do arquivo JSON externo.
 let lugares = [];
 
@@ -79,7 +84,7 @@ function carregarMapa() {
         });
 
         // Cria a variável 'geoparqueInfo' com as informações dos geoparques contidas em 'lugares'.
-        let geoparqueInfo = "<h2>" + lugares[i].nome + "</h2><hr> <br> Região: " + lugares[i].regiao + " - " + lugares[i].estado +
+        let geoparqueInfo = "<h2>" + lugares[i].nome + "</h2> Região: " + lugares[i].regiao + " - " + lugares[i].estado +
             "<br> Área do Geoparquue: " + lugares[i].area +
             "<br>" + lugares[i].geossitio.length + " geossítios" +
             "<br> Reconhecido pela <a href='https://pt.unesco.org/fieldoffice/brasilia/expertise/earth-science-geoparks' target='blank'>UNESCO</a> em: " +
@@ -101,8 +106,8 @@ function carregarMapa() {
                 color: '#ba8345',
                 radius: 2000
             }).bindPopup(
-                "<h3>" + lugares[i].geossitio[j].geoNome + "</h3> <hr>" +
-                `<br> <a href='${lugares[i].site}' target='blank'>` + lugares[i].nome + "</a>" +
+                "<h3>" + lugares[i].geossitio[j].geoNome + "</h3>" +
+                `<a href='${lugares[i].site}' target='blank'>` + lugares[i].nome + "</a>" +
                 "<br>" + lugares[i].geossitio[j].geoCidade +
                 "<br> Latitude, longitude:<br>" + lugares[i].geossitio[j].geoLat + ", " + lugares[i].geossitio[j].geoLong));
         }
