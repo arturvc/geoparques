@@ -56,7 +56,7 @@ function carregarMapa() {
     // e o 'overlay' são os marcadores.
 
 
-    // Cria três 'base layers', as imagens dos mapas: um padrão do OpenstreetMaps, um topográfico e outro com tonalidade na escala de cinza.
+    // Cria três 'base layers', as imagens dos mapas: um padrão do OpenstreetMaps, e um topográfico.
     let mapaBase = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 17,
         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -67,10 +67,6 @@ function carregarMapa() {
         attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
     });
 
-    let mapaStadia_AlidadeSmooth = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
-        maxZoom: 17,
-        attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-    });
 
     // A função 'for' é um loop (ou laço) com um número determinado de repetições,
     // e geralmente tem a seguinte estrtura (inicialização; condição; atualização){declarações executadas se a condição for verdadeira}
@@ -95,9 +91,6 @@ function carregarMapa() {
 
         // Para cada 'lugares[i]', é executada N vezes a função de adicionar marcadores dos geossítios.
         // Como cada geoparque tem numero diferente de geossitios, a quantidade de vezes N é de acordo com o tamanho do array 'geossitio'.
-
-        // Imprime no console do navegador o tamanho de cada array 'geossitio'.
-        console.log("Quantidade de geossítios em " + lugares[i].nome + ": " + lugares[i].geossitio.length);
 
         for (let j = 0; j < lugares[i].geossitio.length; j++) {
 
@@ -129,8 +122,7 @@ function carregarMapa() {
     // Cria os ítens de 'base layers' que serão exibidos no menu de controle do mapa.
     let controleBaseLayers = {
         "Mapa padrão OpenStreetMap": mapaBase,
-        "Mapa topográfico OpenTopoMap": mapaOpenTopoMap,
-        "Mapa Stadia.AlidadeSmooth": mapaStadia_AlidadeSmooth
+        "Mapa topográfico OpenTopoMap": mapaOpenTopoMap
     };
 
     // Cria os ítens de 'overlays' que serão exibidos no menu de controle do mapa.

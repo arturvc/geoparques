@@ -17,7 +17,7 @@ a:hover{
 /* Estilo para os elementos de navegação da tag <nav>. */
 nav {
     margin: 0px;
-    padding: 0px 2%;
+    padding: 0px 2% 0px 0%;
     background-color: #ad8a68;
     display: flex;
     justify-content: space-between;
@@ -28,7 +28,10 @@ nav {
 .logo {
     padding: 0px;
     margin: 0px;
+    background-color: #73b473;
     color: #fff6e7;
+    justify-self: start;
+    align-self: stretch;
 
 }
 
