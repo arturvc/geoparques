@@ -17,11 +17,12 @@ a:hover{
 /* Estilo para os elementos de navegação da tag <nav>. */
 nav {
     margin: 0px;
-    padding: 0px 2% 0px 0%;
+    padding: 0px 2% 0px 0px;
     background-color: #ad8a68;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
+    height: 65px;
 }
 
 /* Configurações da classe .logo. */
@@ -32,11 +33,16 @@ nav {
     color: #fff6e7;
     justify-self: start;
     align-self: stretch;
+    min-width: 50%;
+}
 
+nav ul {
+    margin: 0px;
+    padding: 0px;
 }
 
 /* Estilo para os elementos <li> da lista não ordenada <ul> de navegação. */
-nav li {
+nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 0px 20px;
@@ -56,7 +62,7 @@ nav ul li a:hover {
 /* Classe de estilo da caixa de conteúdo, que contém o mapa em 'index.html' e texto em 'sobre.html'. */
 .caixaConteudo {
     background-color: #dfe0df;
-    min-height: calc(100vh - 54px);
+    min-height: calc(100vh - 65px);
     display: flex;
     justify-content: center;
 }
