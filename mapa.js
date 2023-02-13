@@ -87,7 +87,7 @@ function carregarMapa() {
         let geoparqueInfo = "<h2>" + lugares[i].nome + "</h2> Região: " + lugares[i].regiao + " - " + lugares[i].estado +
             "<br> Área do Geoparquue: " + lugares[i].area +
             "<br>" + lugares[i].geossitio.length + " geossítios" +
-            "<br> Reconhecido pela <a href='https://pt.unesco.org/fieldoffice/brasilia/expertise/earth-science-geoparks' target='blank'>UNESCO</a> em: " +
+            "<br> Reconhecido pela UNESCO em: " +
             lugares[i].ano + `<br> Site: <a href='${lugares[i].site}' target='blank'>` + lugares[i].site + "</a>";
 
         // Inclui o texto de 'geoparqueInfo' nos marcadores[i], que são exibidos quando clicados.
