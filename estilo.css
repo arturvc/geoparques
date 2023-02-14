@@ -25,7 +25,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 64px;
+    height: 50px;
 }
 
 /* Configurações da classe .logo. */
@@ -70,7 +70,7 @@ nav ul li a:hover {
 /* Classe de estilo da caixa de conteúdo. */
 .caixaConteudo {
     background-color: #dfe0df;
-    min-height: calc(100vh - 64px);
+    min-height: calc(100vh - 50px);
     display: flex;
     justify-content: center;
 }
