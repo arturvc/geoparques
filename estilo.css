@@ -106,6 +106,12 @@ nav ul li a:hover {
     color: #ad8a68;
 }
 
+/* Configura o estilo do popup do Leaflet. */
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background-color: #fff6e7 !important;
+}
+
 /* Configura a tag de link <a> que está na classe do popup do Leaflet. */
 .leaflet-popup-content a:link {
     color: #ad8a68;
@@ -122,17 +128,17 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+/* Configura o estilo da caixa de controle de layers do Leaflet. */
 .leaflet-control-layers{
     background-color: #fff6e7 !important;
 }
+
+/* Configura o estilo da caixa de controle de layers do Leaflet. */
 .leaflet-control-layers-list {
     color: #ad8a68;
 }
 
-.leaflet-popup-content-wrapper,
-.leaflet-popup-tip {
-    background-color: #fff6e7 !important;
-}
+
 
 
 /* 
