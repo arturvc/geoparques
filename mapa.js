@@ -1,8 +1,3 @@
-// Este projeto usa emojis do OpenMoji - https://openmoji.org
-// All emojis designed by OpenMoji – the open-source emoji and icon project. License: CC BY-SA 4.0
-// Atribuição-CompartilhaIgual 4.0 Internacional (CC BY-SA 4.0)
-// https://creativecommons.org/licenses/by-sa/4.0/deed.pt_BR
-
 // Cria a variável tipo lista (array) para ser usada com os dados do arquivo JSON externo.
 let lugares = [];
 
@@ -37,21 +32,21 @@ function carregarMapa() {
     let icones = [
         L.icon({
             iconUrl: 'iconeDino.png', // Arquivo de imagem do ícone.
-            iconSize: [30, 46], // Tamanho do ícone em pixels.
-            iconAnchor: [15, 46], // Ponto no ícone que corresponde a localizaão do marcador.
-            popupAnchor: [0, -50] // Ponto quue o popup deve abrir em relação à posição do ícone.
+            iconSize: [30, 30], // Tamanho do ícone em pixels.
+            iconAnchor: [15, 30], // Ponto no ícone que corresponde a localizaão do marcador.
+            popupAnchor: [0, -32] // Ponto quue o popup deve abrir em relação à posição do ícone.
         }),
         L.icon({
             iconUrl: 'iconeCacto.png', // Arquivo de imagem do ícone.
-            iconSize: [30, 46], // Tamanho do ícone em pixels.
-            iconAnchor: [15, 46], // Ponto no ícone que corresponde a localizaão do marcador.
-            popupAnchor: [0, -50] // Ponto quue o popup deve abrir em relação à posição do ícone.
+            iconSize: [30, 30], // Tamanho do ícone em pixels.
+            iconAnchor: [15, 30], // Ponto no ícone que corresponde a localizaão do marcador.
+            popupAnchor: [0, -32] // Ponto quue o popup deve abrir em relação à posição do ícone.
         }),
         L.icon({
             iconUrl: 'iconeSerra.png', // Arquivo de imagem do ícone.
-            iconSize: [30, 46], // Tamanho do ícone em pixels.
-            iconAnchor: [15, 46], // Ponto no ícone que corresponde a localizaão do marcador.
-            popupAnchor: [0, -50] // Ponto quue o popup deve abrir em relação à posição do ícone.
+            iconSize: [30, 30], // Tamanho do ícone em pixels.
+            iconAnchor: [15, 30], // Ponto no ícone que corresponde a localizaão do marcador.
+            popupAnchor: [0, -32] // Ponto quue o popup deve abrir em relação à posição do ícone.
         })
     ];
 
@@ -86,7 +81,7 @@ function carregarMapa() {
         // Cria a variável 'geoparqueInfo' com as informações dos geoparques contidas em 'lugares'.
         let geoparqueInfo = "<h2>" + lugares[i].nome + "</h2> Região: " + lugares[i].regiao + " - " + lugares[i].estado +
             "<br> Área do Geoparquue: " + lugares[i].area +
-            "<br>" + lugares[i].geossitio.length + " geossítios" +
+            "<br> Geossítios: " + lugares[i].geossitio.length + 
             "<br> Reconhecido pela UNESCO em: " +
             lugares[i].ano + `<br> Site: <a href='${lugares[i].site}' target='blank'>` + lugares[i].site + "</a>";
 

@@ -11,6 +11,7 @@ a {
     color: #ba8345;
     text-decoration: none;
 }
+
 /* Configuração dos links <a> quando o cursor sobrepõe o texto. */
 a:hover {
     text-decoration: underline;
@@ -106,7 +107,7 @@ nav ul li a:hover {
 }
 
 /* Configura a tag de link <a> que está na classe do popup do Leaflet. */
-.leaflet-popup-content a {
+.leaflet-popup-content a:link {
     color: #ad8a68;
     text-decoration: none;
 }
@@ -120,6 +121,19 @@ nav ul li a:hover {
 .leaflet-popup-content a:hover {
     text-decoration: underline;
 }
+
+.leaflet-control-layers{
+    background-color: #fff6e7 !important;
+}
+.leaflet-control-layers-list {
+    color: #ad8a68;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background-color: #fff6e7 !important;
+}
+
 
 /* 
 Cores usadas no projeto:
