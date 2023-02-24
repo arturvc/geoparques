@@ -38,12 +38,17 @@ nav {
     align-self: stretch;
 }
 
+.logo img {
+    height: 50px;
+}
+
 /* Estilo da lista não ordenad <ul> que estão na tag <nav>. */
 nav ul {
     margin: 0px;
     padding: 0px;
     text-align: right;
     font-size: small;
+    height: 50px;
 
 }
 
@@ -51,20 +56,30 @@ nav ul {
 nav ul li {
     list-style-type: none;
     display: inline-block;
-    padding: 0px 5px;
-    /* text-align: right; */
-
+    padding: 0px;
 }
 
 /* Estilo para o link <a> que estão na tag <nav>. */
 nav ul li a {
+    display: block;
+    height: 40px;
+    margin: 0px;
+    padding: 5px 5px;
     color: #fff6e7;
     text-decoration: none;
+    text-align: center;
+align-self: center;
+line-height: 40px;
 }
 
 /* Estilo para o link <a> quando o cursor sobrepõe o texto. */
 nav ul li a:hover {
-    text-decoration: underline;
+    background-color: #fff6e7;
+    color: #ad8a68;
+}
+
+#linkAtivo {
+    background-color: #73b473;
 }
 
 /* Classe de estilo da caixa de conteúdo. */
@@ -101,6 +116,9 @@ nav ul li a:hover {
     font-size: smaller;
 }
 
+
+/* Leaflet */
+
 /* Configura o estilo do popup do Leaflet. */
 .leaflet-popup-content {
     color: #ad8a68;
@@ -129,7 +147,7 @@ nav ul li a:hover {
 }
 
 /* Configura o estilo da caixa de controle de layers do Leaflet. */
-.leaflet-control-layers{
+.leaflet-control-layers {
     background-color: #fff6e7 !important;
 }
 

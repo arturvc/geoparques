@@ -49,6 +49,12 @@ function carregarMapa() {
             popupAnchor: [0, -32] // Ponto quue o popup deve abrir em relação à posição do ícone.
         })
     ];
+    let iconeGeossitio = L.icon({
+        iconUrl: 'iconeGeossitio.png', // Arquivo de imagem do ícone.
+        iconSize: [20, 30], // Tamanho do ícone em pixels.
+        iconAnchor: [10, 30], // Ponto no ícone que corresponde a localizaão do marcador.
+        popupAnchor: [0, -32] // Ponto quue o popup deve abrir em relação à posição do ícone.
+    });
 
     //Existem dois tipos de camadas (layers): 'base layers' que são as camadas de imagens (tiles layers) do mapa;
     // e 'overlays' que são os ítens adicionados sobre a 'base layers'. 
@@ -81,7 +87,7 @@ function carregarMapa() {
         // Cria a variável 'geoparqueInfo' com as informações dos geoparques contidas em 'lugares'.
         let geoparqueInfo = "<h2>" + lugares[i].nome + "</h2> Região: " + lugares[i].regiao + " - " + lugares[i].estado +
             "<br> Área do Geoparquue: " + lugares[i].area +
-            "<br> Geossítios: " + lugares[i].geossitio.length + 
+            "<br> Geossítios: " + lugares[i].geossitio.length +
             "<br> Reconhecido pela UNESCO em: " +
             lugares[i].ano + `<br> Site: <a href='${lugares[i].site}' target='blank'>` + lugares[i].site + "</a>";
 
@@ -97,9 +103,8 @@ function carregarMapa() {
             // Adiciona no array 'marcadoresCirculo' com push() os marcadores geométricos nas coordenadas especificadas em 'lugares[i]' 
             // com opções de cor e raio do círculo.
             // Em seguida, adiciona texto em 'bindPopup()' com as informações do geossítio.
-            marcadoresCirculo.push(L.circle([lugares[i].geossitio[j].geoLat, lugares[i].geossitio[j].geoLong], {
-                color: '#ba8345',
-                radius: 2000
+            marcadoresCirculo.push(L.marker([lugares[i].geossitio[j].geoLat, lugares[i].geossitio[j].geoLong], {
+                icon: iconeGeossitio
             }).bindPopup(
                 "<h3>" + lugares[i].geossitio[j].geoNome + "</h3>" +
                 `<a href='${lugares[i].site}' target='blank'>` + lugares[i].nome + "</a>" +
